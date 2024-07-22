@@ -12,10 +12,7 @@ int main() {
 		x2 = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
 		cout << "方程有1或2个实数根分别为" << endl;
 		cout << "x1=" << x1 << endl << "x2=" << x2;
-		/*	else if ((b * b - 4 * a * c) == 0)
-				x1 = (-b + sqrt(b * b - 4 * a * c)) / (2 * a);
-			cout << "返程有1个实数根为" << endl;
-			cout << x1;*/
+
 	} else
 		cout << "方程无实数根";
 
